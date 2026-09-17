@@ -105,7 +105,6 @@ export default function RoseHeroTemp() {
                 <FloatingPetal className="absolute right-[20%] top-0 w-5 h-5 md:w-10 md:h-10 opacity-70" />
                 <FloatingPetal className="absolute right-[25%] top-0 w-6 h-6 md:w-12 md:h-12 opacity-70" />
 
-                
             </section>
         </>
     );
