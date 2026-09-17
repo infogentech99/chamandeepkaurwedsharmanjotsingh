@@ -317,16 +317,16 @@ export default function Home() {
                   </p>
                   <img
                     src={event.image}
-                    alt={event.title_ceremony}
+                    alt={event.Main_title_ceremony}
                     className="lg:w-80 w-60 sm:w-76  h-auto"
                   />
 
                   <h2 className="text-[#FFD74B] font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
                     {event.Main_title_ceremony}
                   </h2>
-                   <h2 className="text-[#FFD74B] font-Cormorant-upright lg:text-[30px] md:text-2xl text-[25px] font-bold">
+                   {/* <h2 className="text-[#FFD74B] font-Cormorant-upright lg:text-[30px] md:text-2xl text-[25px] font-bold">
                     {event.title_ceremony}
-                  </h2>
+                  </h2> */}
                   <p className="text-[#FFD74B] font-Cormorant-upright text-[14px] sm:text-base">
                     <span className="text-[22px]">  {event.time} </span>
                   </p>
