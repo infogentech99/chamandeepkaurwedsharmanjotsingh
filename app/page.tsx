@@ -144,7 +144,7 @@ export default function Home() {
       >
         {playing ? "⏸" : "▶"}
       </button>
-      {/* <IntroVideo /> */}
+      <IntroVideo />
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
