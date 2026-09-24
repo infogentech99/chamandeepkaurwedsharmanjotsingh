@@ -289,8 +289,6 @@ export default function Home() {
     See the route
   </a>
 )}
-
-
                   {event.image2 && (<img
                     src={event.image2}
                     alt={event.image2}
