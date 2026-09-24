@@ -291,12 +291,9 @@ export default function Home() {
 )}
 
 
-
-
-
                   {event.image2 && (<img
                     src={event.image2}
-                    alt={event.venue}
+                    alt={event.image2}
                     className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
                   />)}
                   <h2 className="text-[#FFD74B] font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
