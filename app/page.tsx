@@ -9,8 +9,7 @@ import IntroVideo from "@/app/components/IntroVideo";
 const FloatingLamp = ({ className, style, reverse = false }: { className: string; style?: React.CSSProperties; reverse?: boolean }) => {
   // Memoize random values to prevent recalculation on re-renders
   const lampValues = useMemo(() => {
-    // const duration = 60 + Math.random() * 40; // 60–100s (very slow flow)
-    // const duration = 40 + Math.random() * 10; // 40–50s
+
     const duration = 60 + Math.random() * 10; // 60–70s
     const delay = Math.random() * 15;
 
@@ -43,101 +42,43 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
 export default function Home() {
   const events = [
-    // {
-    //   title_ceremony: "Mehendi",
-    //   image: "/assets/Mehendi.webp",
-    //   venue_address: <>Wednesday, December 2nd 2026 <br /> Join Us at 11 am <br /> The Leela Palace, Udaipur</>,
-    //   link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
-    // },
 
-    // {
-    //   title_ceremony: "Haldi",
-    //   image: "/assets/Haldi.webp",
-    //   venue_address: <>Saturday, April 18th 2026 <br /> Join Us at 11 am <br /> The Leela Palace, Udaipur</>,
-    //   link: "https://maps.app.goo.gl/ywMPWwHjbXvqwiWc8",
-    // },
-    
-    // {
-    //   title_ceremony: "Cocktail",
-    //   image: "/assets/Cocktail.webp",
-    //   venue_address: <>Saturday, April 18th 2026 <br /> Join Us at 11 am <br /> The Leela Palace, Udaipur</>,
-    //   link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
-    // },
-
-    // {
-    //   title_ceremony: "Shagan + Sufi",
-    //   image: "/assets/Engagement.webp",
-    //   venue_address: <>Wednesday, December 2nd 2026 <br /> Join Us at 11 am <br /> The Leela Palace, Udaipur</>,
-    //   link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
-    // },
-
-    //  {
-    //   title_ceremony: "Haldi",
-    //   image: "/assets/Haldi.webp",
-    //   venue_address: <>Saturday, April 18th 2026 <br /> Join Us at 11 am <br /> The Leela Palace, Udaipur</>,
-    //   link: "https://maps.app.goo.gl/ywMPWwHjbXvqwiWc8",
-    // },
-
-    // {
-    //   title_ceremony: "Anand Karaj",
-    //   image: "/assets/Anand_karaj.webp",
-    //   venue_address: <>Saturday, April 18th 2026 <br /> Join Us at 11 am <br /> The Leela Palace, Udaipur</>,
-    //   link: "https://maps.app.goo.gl/mxcwCxWhH1TXBC8c9",
-    // },
-
-    // {
-    //   title_ceremony: "Reception",
-    //   image: "/assets/Reception.webp",
-    //   venue_address: <>Saturday, April 18th 2026 <br /> Join Us at 11 am <br /> The Leela Palace, Udaipur</>,
-    //   link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
-    // },
-
-
-
-
-
-
-  {
+    {
       Main_title_ceremony: "Mehendi",
-      // title_ceremony: "Sagan/Cocktail",
       image: "/assets/Mehendi.webp",
       date: "Wednesday, 2nd December 2026",
-      venue: "Oodles Hotel Chhattarpur",
-      venue_address: <> Plot 759 762, Main Chhatarpur Rd, Block C,<br /> Chhatarpur Extension, Chhatarpur,<br /> New Delhi, Delhi 110074</>,
+      venue: "The California Grand",
+      venue_address: <> Bathinda-Bajjakhana, NH 54, Jeeda,<br /> Punjab 151201</>,
       time: "12 o'clock afternoon onwards",
-      // theme: <><b>Theme:-</b> Glitz & Glam: <br/> Shimmer, sequins & Statement Fits</>,
-      link: "https://share.google/9022apDOsGRfxYGGb",
-       Main_title_ceremony2: "Sufi and Sagan",
-      // title_ceremony2: "Mehandi",
+      link: "https://maps.app.goo.gl/Vt7HvL3dAJxqpGWa9",
+      Main_title_ceremony2: "Sufi and Sagan",
       image2: "/assets/Mehendi.webp",
       time2: "7pm onwards",
     },
     {
       Main_title_ceremony: "Haldi",
-      // title_ceremony: "Haldi",
       image: "/assets/Haldi.webp",
       date: "Thursday, 3rd December 2026",
       venue: "Oodles Hotel Chhattarpur",
       venue_address: <> Plot 759 762, Main Chhatarpur Rd, Block C,<br /> Chhatarpur Extension, Chhatarpur,<br /> New Delhi, Delhi 110074</>,
       time: "12 o'clock afternoon onwards",
-      // theme: <><b>Theme:-</b> Pretty in Pink: <br/> Florals, Pastels & Pink Hues</>,
       link: "https://share.google/9022apDOsGRfxYGGb",
-     
+
     },
 
 
     {
       Main_title_ceremony: "Anand Karaj",
-      // title_ceremony: "Wedding",
       image: "/assets/Anand_karaj.webp",
       date: "Friday, 4th December 2026",
-      venue: <>Hotel Queensland</>,
-      venue_address: <>3, Queens Rd, near Golden Temple,<br />Crystal Chowk, INA Colony, <br />  Amritsar, Punjab 143001</>,
+      venue_anad: "Gurdwara Sahib Jeevan Prakash",
+      venue_address_anad: <>St no 18, 22550, Bhagu Rd, Punjab Housing <br /> Board Colony, Phase-1, Model Town,<br /> Bathinda, Punjab 151001</>,
+      link_anad: "https://maps.app.goo.gl/qVUSuCEANgk9rmdv7",
+      venue: <>Queensland Resorts</>,
+      venue_address: <>7th Mile Stone, Bathinda Goniana Road,<br /> Bathinda Road, Punjab 151201</>,
       time: "11am onwards",
-      // theme: <><b>Theme:-</b> Timeless Royalty:<br/> Elegant Ethnic & Royal Silhouettes</>,
-      link: "https://maps.app.goo.gl/KJk8NLpvYJ48SdqTA",
-       Main_title_ceremony2: "Reception",
-      // title_ceremony2: "Mehandi",
+      link: "https://maps.app.goo.gl/WSWSfFHTBHM8vrn89",
+      Main_title_ceremony2: "Reception",
       image2: "/assets/Reception.webp",
       time2: "8pm onwards",
     },
@@ -203,13 +144,13 @@ export default function Home() {
       >
         {playing ? "⏸" : "▶"}
       </button>
-{/* <IntroVideo /> */}
+      <IntroVideo />
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
       <div className=" bg-[url('/assets/respo_bg.webp')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/background.webp')]
                        bg-cover bg-top bg-no-repeat min-h-screen w-full relative overflow-hidden">
-        
+
         <RoseHeroTemp />
 
         <div className="pt-15 md:pt-53 lg:pt-60 3xl:pt-80 relative z-10">
@@ -225,17 +166,17 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-50 pt-0">
-            
+
             <Image
               src="/assets/symbol.webp"
-              alt="idol"  width={100} height={100}
-              className="w-20 h-15 md:w-40 md:h-30 lg:w-59 lg:h-45 object-cover"/>
+              alt="idol" width={100} height={100}
+              className="w-20 h-15 md:w-40 md:h-30 lg:w-59 lg:h-45 object-cover" />
 
 
 
-<h2 className="text-[#FFD74B] text-[12px] md:text-xl lg:text-xl md:pt-4 eb-garamond font-medium">
-              ਲੱਖ ਖੁਸ਼ੀਆਂ ਪਾਤਸ਼ਾਹੀਆਂ, ਜੇ ਸਤਿਗੁਰ ਨਦਰ ਕਰੇ। <br/>
-ਨਿਮਖ ਵੇਖ ਹਰਿ ਨਾਮ ਦੇ, ਮੇਰਾ ਮਨ ਤਨ ਸੀਤਲ ਹੋਏ।
+            <h2 className="text-[#FFD74B] text-[12px] md:text-xl lg:text-xl md:pt-4 eb-garamond font-medium">
+              ਲੱਖ ਖੁਸ਼ੀਆਂ ਪਾਤਸ਼ਾਹੀਆਂ, ਜੇ ਸਤਿਗੁਰ ਨਦਰ ਕਰੇ। <br />
+              ਨਿਮਖ ਵੇਖ ਹਰਿ ਨਾਮ ਦੇ, ਮੇਰਾ ਮਨ ਤਨ ਸੀਤਲ ਹੋਏ।
             </h2>
 
 
@@ -263,8 +204,8 @@ export default function Home() {
             </h2>
 
             <p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-xl lg:text-3xl mt-4">
-              D/O <br/>
-              Sardar jasmeet singh and Sardarni tejinder kaur 
+              D/O <br />
+              Sardar jasmeet singh and Sardarni tejinder kaur
             </p>
 
             <h2 className="text-[#FFD74B] eb-garamond font-medium text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight">
@@ -273,7 +214,7 @@ export default function Home() {
             </h2>
 
             <p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-xl lg:text-3xl mt-4">
-              S/O <br/>Sardar Bhupinder singh and Sardarni manpreet kaur
+              S/O <br />Sardar Bhupinder singh and Sardarni manpreet kaur
             </p>
 
             <p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-xl lg:text-3xl mt-8">
@@ -282,38 +223,13 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20 lg:mt-40">
-            {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 lg:gap-32 3xl:gap-50">
-              {events.map((event, i) => (
-                <div key={i} className="flex flex-col items-center text-center">
-                  <img
-                    src={event.image}
-                    className="w-75 md:w-76 lg:w-80 3xl:w-100 h-auto"/>
 
-                  <h2 className="text-[#FFD74B] eb-garamond font-medium text-3xl md:text-2xl lg:text-[42px] mt-4">
-                    {event.title_ceremony}
-                  </h2>
-
-                  <p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-base mt-2">
-                    <span className="text-sm md:text-base lg:text-xl">{event.venue_address}</span> <br />
-                  </p>
-
-                  <a
-                    href={event.link}
-                    className="text-[#FFD74B] underline md:text-sm text-lg mt-2 eb-garamond font-medium"
-                    target="_blank">
-                    View Directions
-                  </a>
-
-                </div>
-              ))}
-            </div> */}
-
-<div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-32 gap-16 ">
+            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-32 gap-16 ">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <p className="text-[#FFD74B] font-Cormorant-upright text-[26px] lg:text-[30px] mb-6">
                     {event.date}
-                   
+
                   </p>
                   <img
                     src={event.image}
@@ -324,18 +240,66 @@ export default function Home() {
                   <h2 className="text-[#FFD74B] font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
                     {event.Main_title_ceremony}
                   </h2>
-                   {/* <h2 className="text-[#FFD74B] font-Cormorant-upright lg:text-[30px] md:text-2xl text-[25px] font-bold">
-                    {event.title_ceremony}
-                  </h2> */}
+
+                  
                   <p className="text-[#FFD74B] font-Cormorant-upright text-[14px] sm:text-base">
                     <span className="text-[22px]">  {event.time} </span>
                   </p>
+                  {/* <p className="text-[#FFD74B] font-Cormorant-upright text-[14px] sm:text-base mt-2">
+
+                    <span className="text-[24px] uppercase"> {event.venue_anad}</span> <br />
+                    <span className="text-[20px]">{event.venue_address_anad}</span>
+
+                  </p>
+                  <a
+                    href={event.link_anad}
+                    className="text-[#FFD74B] underline md:text-sm text-[18px] mt-2 font-cormorant"
+                    target="_blank"
+                  >
+                    See the route
+                  </a> */}
+
+
+                  {(event.venue_anad || event.venue_address_anad) && (
+  <p className="text-[#FFD74B] font-Cormorant-upright text-[14px] sm:text-base mt-2">
+    {event.venue_anad && (
+      <span className="text-[24px] uppercase">
+        {event.venue_anad}
+      </span>
+    )}
+
+    {event.venue_address_anad && (
+      <>
+        <br />
+        <span className="text-[20px]">
+          {event.venue_address_anad}
+        </span>
+      </>
+    )}
+  </p>
+)}
+
+{event.link_anad && (
+  <a
+    href={event.link_anad}
+    className="text-[#FFD74B] underline md:text-sm text-[18px] mt-2 font-cormorant"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    See the route
+  </a>
+)}
+
+
+
+
+
                   {event.image2 && (<img
                     src={event.image2}
                     alt={event.venue}
                     className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
                   />)}
-                   <h2 className="text-[#FFD74B] font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
+                  <h2 className="text-[#FFD74B] font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
                     {event.Main_title_ceremony2}
                   </h2>
 
@@ -346,7 +310,7 @@ export default function Home() {
                     <span className="text-[22px]">  {event.time2} </span>
                   </p>
                   <p className="text-[#FFD74B] font-Cormorant-upright text-[14px] sm:text-base mt-2">
-                   
+
                     <span className="text-[24px] uppercase"> {event.venue}</span> <br />
                     <span className="text-[20px]">{event.venue_address}</span>
 
@@ -387,9 +351,9 @@ export default function Home() {
             <Image
               src="/assets/couple_n.webp"
               alt="couple" width={900} height={1200}
-              className="w-108 h-104 md:w-205 md:h-198 lg:w-381 lg:h-264 3xl:w-480 3xl:h-463 object-cover"/>
+              className="w-108 h-104 md:w-205 md:h-198 lg:w-381 lg:h-264 3xl:w-480 3xl:h-463 object-cover" />
           </div>
-          
+
         </div>
       </div>
 
@@ -409,4 +373,3 @@ export default function Home() {
 
 
 
-  
