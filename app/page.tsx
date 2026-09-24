@@ -52,7 +52,7 @@ export default function Home() {
       time: "12 o'clock afternoon onwards",
       link: "https://maps.app.goo.gl/Vt7HvL3dAJxqpGWa9",
       Main_title_ceremony2: "Sufi and Sagan",
-      image2: "/assets/Mehendi.webp",
+      image2: "/assets/sagan.png",
       time2: "7pm onwards",
     },
     {
@@ -144,7 +144,7 @@ export default function Home() {
       >
         {playing ? "⏸" : "▶"}
       </button>
-      <IntroVideo />
+      {/* <IntroVideo /> */}
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
