@@ -139,60 +139,7 @@ export default function CoupleMessage() {
                 </div>
               </div>
             </div>
-{/* 
-          <h1 className="parisienne-regular font-normal text-5xl md:text-6xl lg:text-[100px] text-center text-[#FFD74B] pt-10 md:pt-35 lg:pt-65 3xl:pt-50 leading-tight">
-            A Guide For <br /> Guests
-          </h1>
-          
-          <div className="flex justify-center mt-10 md:mt-20 pb-10 md:pb-0">
-            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-10 md:gap-20 lg:gap-0 3xl:gap-0">
-              <div className=" flex flex-col items-center justify-center text-center">
-                <img
-                  src="/assets/weather.webp"
-                  alt="weather"
-                  className="w-31 h-25 md:w-24 md:h-22 lg:w-33 lg:h-26"/>
-                <h2 className="eb-garamond font-normal text-[40px] md:text-3xl lg:text-[42px] text-[#FFD74B] mt-1">
-                  Weather
-                </h2>
-                <p className="eb-garamond font-normal text-sm lg:text-xl text-[#FFD74B] mt-1 md:leading-5">
-                  A delighful day awaits <br/> with pleasant weather <br /> and mild temperatures.
-                </p>
-              </div>
-              <hr className="hidden lg:block lg:rotate-90 lg:w-65 lg:border-2 border-[#FFD74B] lg:my-28" />
-              <div className=" flex flex-col items-center justify-center text-center">
-                <img
-                  src="/assets/staff.webp"
-                  alt="drive"
-                  className="w-28 h-35 md:w-17 md:h-23 lg:w-21 lg:h-27"
-                />
-                <h2 className="eb-garamond font-normal text-[40px] md:text-3xl lg:text-[42px] text-[#FFD74B] mt-1">
-                  Staff
-                </h2>
-                <p className="eb-garamond font-normal text-sm lg:text-xl md:leading-5 text-[#FFD74B] mt-1">
-                  For those traveling from afar, <br /> Royal Orchid Suites offers a <br /> comfortable stay nearby.
-                </p>
-              </div>
-              <hr className="hidden lg:block lg:rotate-90 lg:w-65 lg:border-2 border-[#FFD74B] lg:my-28 " />
-              <div className=" flex flex-col items-center justify-center text-center">
-                <img
-                  src="/assets/parking.webp"
-                  alt="car"
-                  className="w-31 h-25 md:w-26 md:h-23 lg:w-30 lg:h-27"
-                />
-                <h2 className="eb-garamond font-normal text-[40px] md:text-3xl lg:text-[42px] text-[#FFD74B] mt-1">
-                  Parking
-                </h2>
-                <p className="eb-garamond font-normal text-sm lg:text-xl md:leading-5 text-[#FFD74B] mt-1">
-                  Guests can enjoy hassle <br /> free parking facilities <br /> available at the venue.
-                </p>
-              </div>
-            </div>
-          </div>
 
-          <h2 className="eb-garamond font-medium text-xl md:text-xl lg:text-[28px] text-center text-[#FFD74B] px-4 md:px-20 lg:px-56 3xl:px-107 pt-0 md:pt-22 lg:pt-40 3xl:pt-46 mt-2 lg:mt-4 lg:leading-tight">
-            Your presence means the world to us. To make your experience <br className="hidden md:block" />
-            effortless and enjoyable, we've gathered a few useful details below.
-          </h2>              */}
 
             <div className="flex flex-col h-50 md:h-89 lg:h-200 3xl:h-210 md:gap-3 lg:gap-8 3xl:gap-8 items-center text-center">
               <h2 className="parisienne-regular font-normal text-2xl md:text-4xl lg:text-6xl text-center text-[#FFD74B] pt-0 md:pt-60 lg:pt-40 3xl:pt-55">The Journey Begins</h2>

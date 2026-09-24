@@ -45,7 +45,7 @@ export default function Home() {
 
     {
       Main_title_ceremony: "Mehendi",
-      image: "/assets/Mehendi.webp",
+      image: "/assets/mehendi.webp",
       date: "Wednesday, 2nd December 2026",
       venue: "The California Grand",
       venue_address: <> Bathinda-Bajjakhana, NH 54, Jeeda,<br /> Punjab 151201</>,
@@ -57,7 +57,7 @@ export default function Home() {
     },
     {
       Main_title_ceremony: "Haldi",
-      image: "/assets/Haldi.webp",
+      image: "/assets/haldi.webp",
       date: "Thursday, 3rd December 2026",
       venue: "Oodles Hotel Chhattarpur",
       venue_address: <> Plot 759 762, Main Chhatarpur Rd, Block C,<br /> Chhatarpur Extension, Chhatarpur,<br /> New Delhi, Delhi 110074</>,
@@ -69,7 +69,7 @@ export default function Home() {
 
     {
       Main_title_ceremony: "Anand Karaj",
-      image: "/assets/Anand_karaj.webp",
+      image: "/assets/anand_karaj.webp",
       date: "Friday, 4th December 2026",
       venue_anad: "Gurdwara Sahib Jeevan Prakash",
       venue_address_anad: <>St no 18, 22550, Bhagu Rd, Punjab Housing <br /> Board Colony, Phase-1, Model Town,<br /> Bathinda, Punjab 151001</>,
@@ -79,7 +79,7 @@ export default function Home() {
       time: "11am onwards",
       link: "https://maps.app.goo.gl/WSWSfFHTBHM8vrn89",
       Main_title_ceremony2: "Reception",
-      image2: "/assets/Reception.webp",
+      image2: "/assets/reception.webp",
       time2: "8pm onwards",
     },
 

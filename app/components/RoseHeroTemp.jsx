@@ -27,9 +27,6 @@ export default function RoseHeroTemp() {
                 <FloatingPetal className="hidden lg:block absolute left-[90%] top-0 w-17 h-17 opacity-85" />
                 <FloatingPetal className="hidden lg:block absolute left-[95%] top-0 w-18 h-18 opacity-85" />
 
-
-
-
                 <FloatingPetal className="hidden lg:block absolute right-[5%] top-0 w-16 h-16 opacity-80" />
                 <FloatingPetal className="hidden lg:block absolute right-[10%] top-0 w-17 h-17 opacity-70" />
                 <FloatingPetal className="hidden lg:block absolute right-[15%] top-0 w-18 h-18 opacity-70" />
