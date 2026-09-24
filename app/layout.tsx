@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "https://achamandeepkaurwedsharmanjotsingh.app/og.jpg",
+    "og:image:secure_url": "https://chamandeepkaurwedsharmanjotsingh.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 
