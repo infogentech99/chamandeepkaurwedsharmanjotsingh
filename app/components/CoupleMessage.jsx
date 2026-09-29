@@ -65,10 +65,10 @@ export default function CoupleMessage() {
             img: '/assets/star6.jpg',
         },
 
-        {
-            img: '/assets/two.webp',
+        
+  {
+            img: '/assets/star4.webp',
         },
-
        
     ]
 
