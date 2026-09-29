@@ -59,10 +59,10 @@ export default function Home() {
       Main_title_ceremony: "Haldi",
       image: "/assets/haldi.webp",
       date: "Thursday, 3rd December 2026",
-      venue: "Oodles Hotel Chhattarpur",
-      venue_address: <> Plot 759 762, Main Chhatarpur Rd, Block C,<br /> Chhatarpur Extension, Chhatarpur,<br /> New Delhi, Delhi 110074</>,
+      venue: "Grand Mirage",
+      venue_address: <> NH54, road, near omaxe colony,<br /> Goniana, Bathinda, Punjab 151001</>,
       time: "12 o'clock afternoon onwards",
-      link: "https://share.google/9022apDOsGRfxYGGb",
+      link: "https://maps.app.goo.gl/QBq9G1ideQgQ3w4M6",
 
     },
 
