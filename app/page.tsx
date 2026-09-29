@@ -144,7 +144,7 @@ export default function Home() {
       >
         {playing ? "⏸" : "▶"}
       </button>
-      {/* <IntroVideo /> */}
+      <IntroVideo />
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
@@ -354,11 +354,25 @@ export default function Home() {
 
       <CoupleMessage />
 
-      <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-        <div className="h-253 md:h-179 lg:h-330 3xl:h-421 flex flex-col items-center relative">
+      {/* <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
+        <div className="h-253 md:h-179 lg:h-330 3xl:h-421 flex flex-col items-center relative"> */}
           {/* <img src="/assets/Couple_Logo.webp" alt="logo" width={250} height={300} className="absolute top-50 w-30 h-30 md:top-41 md:w-41 md:h-40 lg:top-84 lg:w-72 lg:h-58 3xl:top-118" /> */}
-        </div>
-      </div>
+        {/* </div>
+      </div> */}
+<picture className="block w-full">
+  <source
+    media="(min-width: 768px)"
+    srcSet="/assets/bg_three.webp"
+  />
+
+  <img
+    src="/assets/respo_three.webp"
+    alt=""
+    className="block w-full h-auto"
+  />
+</picture>
+
+
 
       {/* <MarriageCountdown /> */}
     </>

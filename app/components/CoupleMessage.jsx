@@ -76,7 +76,7 @@ export default function CoupleMessage() {
     return (
 
         <div className="bg-[url('/assets/respo_bg_two.webp')] md:bg-[url('/assets/bg_two.webp')] bg-cover bg-no-repeat">
-             <div className="h-380 md:h-685 lg:h-700 3xl:h-780">
+             <div className="h-380 md:h-500 lg:h-700 3xl:h-780">
                 <h1 className="eb-garamond font-medium text-base md:text-2xl lg:text-[38px] text-center text-[#FFD74B] lg:pt-40 pt-20">INTRODUCING</h1>
                 <h2 className="parisienne-regular font-normal text-5xl md:text-6xl lg:text-[100px] text-center text-[#FFD74B] px-3 md:px-17 lg:px-51 3xl:px-103 mt-12 lg:mt-24 leading-5 md:leading-tight">
                     The Couple
