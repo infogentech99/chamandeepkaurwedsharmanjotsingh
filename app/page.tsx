@@ -144,7 +144,7 @@ export default function Home() {
       >
         {playing ? "⏸" : "▶"}
       </button>
-      <IntroVideo />
+      {/* <IntroVideo /> */}
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
@@ -184,10 +184,10 @@ export default function Home() {
               With the heavenly blessings of Our late grandparents, <br /> Late sd kalyan singh and sardarni surjeet kaur
             </h2>
 
-            <hr className="w-16 lg:w-24 border-[#FFD74B] my-2 md:my-4" />
+            {/* <hr className="w-16 lg:w-24 border-[#FFD74B] my-2 md:my-4" />
             <h2 className="text-[#FFD74B] text-xs md:text-lg lg:text-[26px] eb-garamond font-medium">
               The Kapoor Family
-            </h2>
+            </h2> */}
           </div>
 
           <div className="mt-8 text-center">

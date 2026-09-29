@@ -76,7 +76,7 @@ export default function CoupleMessage() {
     return (
 
         <div className="bg-[url('/assets/respo_bg_two.webp')] md:bg-[url('/assets/bg_two.webp')] bg-cover bg-no-repeat">
-             <div className="h-350 md:h-685 lg:h-700 3xl:h-780">
+             <div className="h-380 md:h-685 lg:h-700 3xl:h-780">
                 <h1 className="eb-garamond font-medium text-base md:text-2xl lg:text-[38px] text-center text-[#FFD74B] lg:pt-40 pt-20">INTRODUCING</h1>
                 <h2 className="parisienne-regular font-normal text-5xl md:text-6xl lg:text-[100px] text-center text-[#FFD74B] px-3 md:px-17 lg:px-51 3xl:px-103 mt-12 lg:mt-24 leading-5 md:leading-tight">
                     The Couple
@@ -123,19 +123,19 @@ export default function CoupleMessage() {
                 </div>
                  
 
-              <div className=" h-100 lg:h-180 flex justify-center gap-0 items-center md:mt-40 lg:mt-45 3xl:mt-60 md:pr-5 lg:pr-10 3xl:pr-30">
-                <div className="bg-[url('/assets/RSVP_Symbol.webp')] w-65 h-65 md:w-100 md:h-100 lg:w-150 lg:h-150 bg-contain bg-no-repeat">
-                <h2 className="eb-garamond font-medium text-center text-xl md:text-3xl lg:text-[46px] text-[#8B4302] pt-15 md:pt-25 lg:pt-40 3xl:pt-40 leading-5 md:leading-8 lg:leading-12">
+              <div className=" h-100 lg:h-180 flex justify-center gap-0 items-center md:mt-40 lg:mt-45 3xl:mt-60 md:pr-5 lg:pr-10 3xl:pr-30 my-15">
+                <div className="bg-[url('/assets/RSVP_Symbol.webp')] w-90 h-90 md:w-100 md:h-100 lg:w-150 lg:h-150 bg-contain bg-no-repeat">
+                <h2 className="eb-garamond font-medium text-center text-[22px] md:text-3xl lg:text-[46px] text-[#8B4302] pt-20 md:pt-25 lg:pt-40 3xl:pt-40 leading-5 md:leading-8 lg:leading-12">
                   Awaiting the <br /> Pleasure of <br/> Your Company
                 </h2>
                 <div className="flex flex-col justify-center items-center mt-2 md:not-first:mt-4">
-                <h2 className="eb-garamond font-semibold text-xs md:text-sm lg:text-[20px] text-[#8B4302]">
+                {/* <h2 className="eb-garamond font-semibold text-[13px] md:text-sm lg:text-[22px] text-[#8B4302]">
                   Click the link to RSVP
+                </h2> */}
+            
+                <h2 className="eb-garamond font-semibold text-[14px] md:text-sm lg:text-[20px] text-[#8B4302] text-center">
+                  Manmeet singh, Rajkaran singh, <br/> Harman singh, Ravinder singh,<br/> Mayank singh, Sameer singh  <br/>  Gurjas singh, Yuvraj singh <br/> Ekambir singh, Ekchit singh
                 </h2>
-                <br />
-                <a href="#" target="_blank">
-                  <img src="/assets/whatsapp.webp" alt="icon" className=" w-8 h-8 md:w-10 md:h-10 lg:w-15 lg:h-15 3xl:w-20 3xl:h-20" />
-                </a>
                 </div>
               </div>
             </div>
