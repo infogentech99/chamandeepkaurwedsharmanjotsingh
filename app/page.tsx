@@ -181,7 +181,7 @@ export default function Home() {
 
 
             <h2 className="text-[#FFD74B] text-sm md:text-xl lg:text-3xl md:pt-8 eb-garamond font-medium">
-              With the heavenly blessings of Our late grandparents, <br /> Late sd kalyan singh and sardarni surjeet kaur
+              With the heavenly blessings of Our late grandparents, <br /> Late Sd Kalyan Singh and Sardarni Surjeet Kaur
             </h2>
 
             {/* <hr className="w-16 lg:w-24 border-[#FFD74B] my-2 md:my-4" />
@@ -202,19 +202,22 @@ export default function Home() {
             <h2 className="text-[#FFD74B] eb-garamond font-medium text-center mt-6 md:mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight">
               Chamandeep Kaur
             </h2>
-
+ <p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-xl lg:text-3xl mt-2">
+       Granddaughter of Late Sd Kalyan Singh and Sardarni Surjeet Kaur
+            </p>
             <p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-xl lg:text-3xl mt-4">
-              D/O <br />
-              Sardar jasmeet singh and Sardarni tejinder kaur
+         (D/O Sardar Jasmeet Singh and Sardarni Tejinder Kaur)
             </p>
 
             <h2 className="text-[#FFD74B] eb-garamond font-medium text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight">
               <span className="text-[#FFD74B] eb-garamond font-medium text-center lg:mt-10 mt-0 text-4xl md:text-6xl lg:text-[100px] leading-tight">
                 & </span>   <br /> Harmanjot
             </h2>
-
+<p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-xl lg:text-3xl mt-2">
+       Grandson of Sd Dilip Singh Chotmurada and Sardarni Sukhminder Kaur
+            </p>
             <p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-xl lg:text-3xl mt-4">
-              S/O <br />Sardar Bhupinder singh and Sardarni manpreet kaur
+              (S/O Sardar Bhupinder Singh and Sardarni Manpreet kaur)
             </p>
 
             <p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-xl lg:text-3xl mt-8">
