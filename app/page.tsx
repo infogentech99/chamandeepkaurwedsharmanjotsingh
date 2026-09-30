@@ -180,10 +180,14 @@ export default function Home() {
             </h2>
 
 
-            <h2 className="text-[#FFD74B] text-sm md:text-xl lg:text-3xl md:pt-8 eb-garamond font-medium">
+            {/* <h2 className="text-[#FFD74B] text-sm md:text-xl lg:text-3xl md:pt-8 eb-garamond font-medium">
               With the heavenly blessings of Our late grandparents, <br /> Late Sd Kalyan Singh and Sardarni Surjeet Kaur
-            </h2>
+            </h2> */}
 
+
+  {/* <h2 className="text-[#FFD74B] text-sm md:text-xl lg:text-3xl md:pt-8 eb-garamond font-medium">
+              With the heavenly blessings of Our late grandparents
+            </h2> */}
             {/* <hr className="w-16 lg:w-24 border-[#FFD74B] my-2 md:my-4" />
             <h2 className="text-[#FFD74B] text-xs md:text-lg lg:text-[26px] eb-garamond font-medium">
               The Kapoor Family
@@ -191,19 +195,19 @@ export default function Home() {
           </div>
 
           <div className="mt-8 text-center">
-            <h2 className="text-[#FFD74B] eb-garamond font-medium text-3xl md:text-5xl lg:text-6xl leading-tight lg:tracking-wide tracking-wider">
+            {/* <h2 className="text-[#FFD74B] eb-garamond font-medium text-3xl md:text-5xl lg:text-6xl leading-tight lg:tracking-wide tracking-wider">
               INVITES
-            </h2>
+            </h2> */}
 
             <p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-xl lg:text-3xl mt-6">
-              you to join us in the wedding celebrations of
+             We Cordially Invite You to the Wedding of
             </p>
 
             <h2 className="text-[#FFD74B] eb-garamond font-medium text-center mt-6 md:mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight">
               Chamandeep Kaur
             </h2>
  <p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-xl lg:text-3xl mt-2">
-       Granddaughter of Late Sd Kalyan Singh and Sardarni Surjeet Kaur
+       Granddaughter of Sardarni Surjeet Kaur and Late Sd Kalyan Singh 
             </p>
             <p className="text-[#FFD74B] eb-garamond font-medium text-sm md:text-xl lg:text-3xl mt-4">
          (D/O Sardar Jasmeet Singh and Sardarni Tejinder Kaur)
