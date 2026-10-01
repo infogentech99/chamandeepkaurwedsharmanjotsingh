@@ -123,21 +123,33 @@ export default function CoupleMessage() {
           <br></br>
 
           <h2 className="eb-garamond font-semibold text-[18px] md:text-sm lg:text-[24px] text-[#FFD74B] text-center">
-            Manmeet Singh, <br />
-            Ravinder Singh, <br /> Gurwinder Singh Lamba,
+            Manmeet singh(chachu)
             <br />
-            Inderjeet Singh <br />
-            Manjot Singh Khera <br />
-            Rajkaran Singh, <br />
-            Mayank Singh, <br />
-             Sameer Singh <br />
-            Harman Singh,
-            <br /> 
-            Gurjas Singh,
-            <br /> Yuvraj Singh <br /> Ekambir Singh, <br />
-            Ekchit Singh
+            Ravinder singh(chachu)
             <br />
-            Ibadat Kaur
+            Gurwinder singh lamba(FuFu)
+            <br />
+            Inderjeet singh(Mamaji)
+            <br />
+            Manjot singh khera(Jijaji)
+            <br />
+            Rajkaran singh(Brother)
+            <br />
+            Mayank singh(Brother)
+            <br />
+            Sameer singh(Brother)
+            <br />
+            Harman singh(Brother)
+            <br />
+            Gurjas singh(Brother)
+            <br />
+            Yuvraj singh(Brother)
+            <br />
+            Ekambir singh(Brother)
+            <br />
+            Ekchit singh(Brother)
+            <br />
+            Ibadat kaur(Meri masi ki shadi mai jaroor ana)
           </h2>
         </div>
 
